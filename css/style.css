@@ -1,0 +1,111 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: Capriola, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  *,
+  :after,
+  :before {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-image: url(../images/CryptoFranco_Studio.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    min-height: 100vh;
+    height: auto;
+    letter-spacing: 0.1em;
+    color: rgb(255, 239, 109);
+  }
+
+  h2 {
+/*    color:black;*/
+  }
+  .logo {
+    width: 100px;
+  }
+
+  .social{
+    width: 100%; /* Full-width */
+    height: 100px;
+    overflow: auto; /* Overflow due to float */
+    padding: 0,16px,0,16px;
+  }
+
+  .social__item{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .social__logo{
+    width: 75px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  /*.social__logo:hover{
+    width: 90px;
+  }*/
+
+  .links__item {
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto 15px;
+    margin-bottom: 5px;
+    padding: 15px 20px;
+    font-size: 24px;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    color: black;
+  }
+  
+  .links__url {
+    z-index: 0;
+    overflow: hidden;
+    margin-bottom: 16px;
+    transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+    border: 2px solid rgb(255, 239, 109);
+    background-color: rgb(255, 239, 109);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+  }   
+
+  .links__url:hover {
+    background-color: transparent;
+    color: rgb(255, 239, 109);
+    border-color: rgb(255, 239, 109);
+  }
+  
+  .links__thumbnail {
+    position: absolute;
+    pointer-events: none;
+    overflow: hidden;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  .links__logo {
+    border-radius: 0px;
+    display: block;
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    object-position: initial;
+  }
