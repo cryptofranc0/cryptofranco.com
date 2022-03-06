@@ -30,7 +30,21 @@ html {
   }
 
   h2 {
-/*    color:black;*/
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+    color: rgb(255, 239, 109);
+  }
+
+  h3 {
+    margin: 0px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(255, 239, 109);
+    font-size: 20px;
+    line-height: 1.5;
   }
 
   div,img {
@@ -39,6 +53,23 @@ html {
     border: 0px;
     font: inherit;
     vertical-align: baseline;
+  }
+
+  .MainContainer {
+    margin: 0px auto;
+    height: 100%;
+    width: 100%;
+    max-width: 680px;
+    padding-bottom: 80px;
+  }
+
+  .Header, .Links {
+    padding-bottom: 16px;
+  }
+
+  .Separator {
+    padding-bottom: 16px;
+    padding-top: 28px;
   }
 
   .logo {
@@ -65,34 +96,12 @@ html {
     padding-left: 8px;
     padding-right: 8px;
   }
-
-  /*.social__logo:hover{
-    width: 90px;
-  }*/
-
-  .links {
-    margin: 0px auto;
-    height: 100%;
-    width: 100%;
-    max-width: 680px;
-    padding-bottom: 80px;
-  }
-
+  
   .link__container {
     position: relative;
   }
 
   .link__item {
-    /*display: block;
-    max-width: 1000px;
-    margin: 0 auto 15px;
-    margin-bottom: 5px;
-    padding: 2px 15px;
-    font-size: 16px;
-    line-height: 1.5;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-    color: black;*/
     z-index: 0;
     overflow: hidden;
     margin-bottom: 16px;
@@ -105,17 +114,13 @@ html {
     height: auto;
   }
   
+  .link__item:hover {
+    background-color: transparent;
+    color: rgb(255, 239, 109);
+    border-color: rgb(255, 239, 109);
+  }
+
   .link__url {
-    /*z-index: 0;
-    overflow: hidden;
-    margin-bottom: 16px;
-    transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
-    border: 2px solid rgb(255, 239, 109);
-    background-color: rgb(255, 239, 109);
-    color: rgb(0, 0, 0);
-    border-radius: 30px;
-    padding-left: 70px;
-    padding-right: 70px;*/
     overflow-wrap: break-word;
     word-break: break-word;
     hyphens: auto;
@@ -145,21 +150,7 @@ html {
     vertical-align: middle;
   }   
 
-  .link__url:hover {
-    background-color: transparent;
-    color: rgb(255, 239, 109);
-    border-color: rgb(255, 239, 109);
-  }
-  
   .link__thumbnail {
-    /*position: absolute;
-    pointer-events: none;
-    overflow: hidden;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    left:25px;*/
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
