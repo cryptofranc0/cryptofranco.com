@@ -27,6 +27,11 @@ html {
     height: auto;
     letter-spacing: 0.1em;
     color: rgb(255, 239, 109);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
   }
 
   h2 {
