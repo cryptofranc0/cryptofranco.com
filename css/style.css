@@ -36,6 +36,11 @@ html {
     line-height: 1.5;
     font-size: 18px;
     color: rgb(255, 239, 109);
+    text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
   }
 
   h3 {
@@ -45,6 +50,12 @@ html {
     color: rgb(255, 239, 109);
     font-size: 20px;
     line-height: 1.5;
+    text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+
   }
 
   div,img {
